@@ -8,14 +8,15 @@ body {
 
 section {
     border: solid 1px #CCC; 
-    width: 50vh;
-    height: 70vh;
-    margin: 20px;
-    padding-left: 15px;
+    width: 40vh;
+    height: 66vh;
+    margin: 30px;
+    padding: 15px;
     display: inline-block;
 }
 img {
-    margin-left: -15px;
+    width: 40vh;
+    margin-left: -16px;
 }
 
 
@@ -27,11 +28,32 @@ Feel free to borrow from Exercise 1.
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
-
+    section {
+        border: solid 1px #CCC; 
+        width: 55vh;
+        height: 72vh;
+        margin: 5px;
+        padding: 15px;
+        display: inline-block;
+    }
+    img {
+        width: 55vh;
+        margin-left: -15px;
+    }
 }
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
-
+    section {
+        border: solid 1px #CCC; 
+        width: 55vh;
+        height: 72vh;
+        margin: 10px;
+        padding: 15px;
+        display: inline-block;
+    }
+    img {
+        margin-left: -15px;
+    }
     
 }
