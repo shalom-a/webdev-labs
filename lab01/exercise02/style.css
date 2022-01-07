@@ -6,6 +6,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    color:darkolivegreen;
+    font-family: 'Playfair Display', serif;
+}
+
 section {
     border: solid 1px #CCC; 
     width: 40vh;
