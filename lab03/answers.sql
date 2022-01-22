@@ -56,9 +56,9 @@ Where following.user_id = 26;
 
 
 -- Exercise 11
-# Insert into bookmarks(user_id, post_id) Values(26, 219);
-# Insert into bookmarks(user_id, post_id) Values(26, 220);
-# Insert into bookmarks(user_id, post_id) Values(26, 221);
+Insert into bookmarks(user_id, post_id) Values(26, 219);
+Insert into bookmarks(user_id, post_id) Values(26, 220);
+Insert into bookmarks(user_id, post_id) Values(26, 221);
 
 
 
