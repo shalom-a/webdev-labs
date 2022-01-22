@@ -46,7 +46,7 @@ Where users.id=12 or users.id=26;
 -- Exercise 9
 select posts.id, posts.pub_date, following.following_id
 from following
-Inner Join posts ON follwing.following_id = posts.user_id
+Inner Join posts ON following.following_id = posts.user_id
 Where following.user_id = 26;
 
 
